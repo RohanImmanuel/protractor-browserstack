@@ -19,6 +19,10 @@ exports.config = {
   },{
     'browserName': 'IE'
   }]
+  
+  'plugins': [{
+    'package': "protractor-browserstack-reporter"
+  }]
 };
 
 // Code to support common capabilities
