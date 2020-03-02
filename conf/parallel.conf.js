@@ -10,9 +10,9 @@ exports.config = {
     'browserName': 'Chrome'
   },
 
-  'multiCapabilities': [{
+  'multiCapabilities': [/*{
     'browserName': 'Chrome'
-  },{
+  },*/{
     'browserName': 'Safari'
   },{
     'browserName': 'Firefox'
