@@ -17,5 +17,6 @@ steps:
 
 - script: |
     npm install
+    npm run parallel
     npm run single
   displayName: 'npm install and build'
