@@ -21,7 +21,7 @@ steps:
 - script: |
     npm install
     npm run parallel
-    npm run single
+    npm run parallel
   displayName: 'npm install and build'
 
 - task: BrowserStackResults@0
